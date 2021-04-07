@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mTxtSensors = findViewById(R.id.textSensors);
-      //  mTxtSensors.setMovementMethod(new ScrollingMovementMethod());
+        //  mTxtSensors.setMovementMethod(new ScrollingMovementMethod());
         mButton = findViewById(R.id.button);
 
         mButton.setOnClickListener(new View.OnClickListener() {
